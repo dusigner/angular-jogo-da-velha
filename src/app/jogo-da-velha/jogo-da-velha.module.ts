@@ -3,9 +3,14 @@ import { CommonModule } from '@angular/common';
 import { JogoDaVelhaComponent } from './jogo-da-velha.component';
 
 @NgModule({
-  declarations: [JogoDaVelhaComponent],
+  declarations: [
+    JogoDaVelhaComponent
+  ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    JogoDaVelhaComponent    
   ]
 })
 export class JogoDaVelhaModule { }
